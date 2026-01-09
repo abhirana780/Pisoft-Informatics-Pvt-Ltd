@@ -10,3 +10,4 @@ elif u_experience<2 and age:
 else: 
     print(f"One of the values entered are not in correct format or your age is less than 18")
 
+print("hi")
