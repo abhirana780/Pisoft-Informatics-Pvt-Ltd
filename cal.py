@@ -18,7 +18,7 @@ elif operation == '/':
         print("Error: Division by zero is not allowed.")
 else:
     print("Invalid operation. Please enter a valid operation (+, -, *, /).")
-proceed = input("do you want to proceed : yes/no")
+proceed = input("do you want to proceed : yes/no :")
 if proceed=="yes":
     value3 = int(input("Enter a number: "))
     value4 = int(input("Enter another number: "))
@@ -37,5 +37,6 @@ if proceed=="yes":
             print(f"Result after division: {result}")
         else:
             print("Error: Division by zero is not allowed.")
-    else:
-        print("Invalid operation. Please enter a valid operation (+, -, *, /).")
+elif proceed=="no":
+    print("Thank you!")
+    
