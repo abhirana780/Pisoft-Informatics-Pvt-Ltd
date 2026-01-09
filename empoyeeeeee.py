@@ -1,9 +1,13 @@
-#introduction to employee details 
-name = input("enter employee name :")
-salary = float(input("enter employee salary :"))
-position = input('enter employee position :')
-print('welcome to our company!')
-print('employee details:')
-print("name:", name)
-print("salary:", salary)
-print("position:", position)
+age=int(input("enter thr your age"))
+if age >= 18:
+    print("Elegbeel for vote chache")
+else:
+    print("not elegible for vote")
+
+
+'''
+num=int(input("enter the number "))
+if num%2==0:
+    print("this is even function")
+else:
+    print("not a even function")'''
