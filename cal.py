@@ -39,4 +39,5 @@ if proceed=="yes":
             print("Error: Division by zero is not allowed.")
 elif proceed=="no":
     print("Thank you!")
-    
+else:
+    print("Invalid input. Please enter 'yes' or 'no'.")
