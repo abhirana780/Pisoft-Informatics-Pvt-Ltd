@@ -1,0 +1,7 @@
+print("WELCOME TO THE COMPANY")
+name=input("Enter the name of employee:")
+print("Hy",name)
+designation=input("Enter your designation:")
+print("Designation:",designation)
+salary=float(input("Enter your salary:"))
+print("Salary:",salary,)
