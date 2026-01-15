@@ -37,4 +37,3 @@ for i in range(num):
     print("Grade:", grade)
     print("-------------------------------")
     print("\n")
-print("Ranking of Students based on Percentage:")
