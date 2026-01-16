@@ -9,10 +9,25 @@ for i in range(num):
     print("Student ", i+1)
     s_name = input("Enter your name: ")
     math = int(input("Enter marks obtained in Mathematics: "))
+    if math < 0 or math > 100:
+        print("Invalid marks entered for Mathematics.")
+        math = 0
     science = int(input("Enter marks obtained in Science: "))
+    if science < 0 or science > 100:
+        print("Invalid marks entered for Science.")
+        science = 0
     english = int(input("Enter marks obtained in English: "))
+    if english < 0 or english > 100:
+        print("Invalid marks entered for English.")
+        english = 0
     history = int(input("Enter marks obtained in History: "))
+    if history < 0 or history > 100:
+        print("Invalid marks entered for History.")
+        history = int(input("Again Enter marks obtained in History: "))
     geography = int(input("Enter marks obtained in Geography: "))
+    if geography < 0 or geography > 100:
+        print("Invalid marks entered for Geography.")
+        geography = 0
     total_marks = math + science + english + history + geography
     maximum_marks = 500
     percentage = (total_marks / maximum_marks) * 100
